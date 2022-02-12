@@ -5,7 +5,10 @@
   overflow: hidden;
   position: relative;
 }
-
+.navbar {
+  position: relative;
+  z-index: 5;
+}
 .nav-items {
   user-select: none;
   cursor: pointer;
@@ -68,6 +71,7 @@
   border-radius: 10px;
   overflow: hidden;
   animation: 5s animate ease-in-out infinite;
+  z-index: 5;
 }
 .social-links .fab {
   margin: 10px 0;
@@ -77,6 +81,7 @@
 .social-links .fab:hover {
   color: var(--text-color);
 }
+
 @keyframes move {
   100% {
     background-position-x: 2000px;
