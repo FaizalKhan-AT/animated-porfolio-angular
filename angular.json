@@ -27,10 +27,7 @@
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [
-              "node_modules/vanta/dist/vanta.trunk.min.js",
-              "node_modules/vanta/dist/vanta.net.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {

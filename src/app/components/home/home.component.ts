@@ -45,26 +45,10 @@ export class HomeComponent implements OnInit {
     gsap.from(`#salutation`, { y: '200%', duration: 2, ease: 'power1' });
     gsap.from(`#sub`, { y: '200%', duration: 2.5, ease: 'slow' });
     let time: number = 0;
-    for (let i = 0; i <= 3; i++) {
+    for (let i = 1; i <= 3; i++) {
       this.tl.from(`#icon-${i}`, { x: 50, duration: 0.2 + time, ease: 'back' });
       time += 0.1;
     }
-    // VANTA.TRUNK({
-    //   el: `#${this.home.nativeElement.id}`,
-    //   mouseControls: true,
-    //   touchControls: true,
-    //   gyroControls: false,
-    //   minHeight: 200.0,
-    //   minWidth: 200.0,
-    //   scale: 1.0,
-    //   scaleMobile: 0,
-    //   color: 0x5555557,
-    //   spacing: 4.5,
-    //   chaos: 10,
-    //   backgroundColor: 0x060606,
-    //   p5: p5,
-    //   THREE,
-    // });
     particlesJS('home', {
       particles: {
         number: {
