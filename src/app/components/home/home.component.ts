@@ -1,8 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import gsap from 'gsap';
-declare let VANTA: any;
-import * as THREE from 'three';
-declare let p5: any;
 declare let particlesJS: any;
 
 @Component({
